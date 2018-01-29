@@ -1,16 +1,25 @@
 # Qt support for vim
 
+Simple Qt support for Qt-based projects.
+
+## Installation:
+
+Use your favourite package manager for Vim.
+
+If you don't have a preferred installation method, I recommend using Vim's
+native package management support, simply copy and paste:
+
+	mkdir -p ~/.vim/pack/bundle/start
+	cd ~/.vim/pack/bundle/start
+	git clone https://github.com/fedorenchik/qt-support.vim.git
+
 ## Filetypes:
 
-* cpp.doxygen.qtcpp.qtdoc
+* C++
 * qmake
 * qml
 * qbs
 * qrc -- same as xml
-
-## Parts:
-
-* C++ Autocompletion
 
 ## Status:
 
@@ -36,3 +45,9 @@
 * https://github.com/artoj/qmake-syntax-vim
 * https://github.com/suy/vim-qmake
 * https://bitbucket.org/JohnKaul/qbs.vim
+
+## TODO:
+
+* C++ Autocompletion
+* Add supported syntaxes to Syntax menu
+* QtDoc
