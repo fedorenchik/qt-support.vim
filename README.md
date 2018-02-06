@@ -30,6 +30,7 @@ native package management support, simply copy and paste:
 |   qml    |        **+**        |                  |        **+**       |     **+**     |          |        |
 |   qrc    |   **+** (use xml)   |                  |                    |               |          |        |
 |   qbs    |        **+**        |      **+**       |        **+**       |               |          |        |
+|    ui    |                     |                  |                    |               |          |        |
 
 ## Related works:
 
@@ -48,6 +49,7 @@ native package management support, simply copy and paste:
 
 ## TODO:
 
+* `*.ui` support
 * C++ Autocompletion
 * Add supported syntaxes to Syntax menu
 * QtDoc
