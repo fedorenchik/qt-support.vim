@@ -19,7 +19,9 @@ native package management support, simply copy and paste:
 * qmake
 * qml
 * qbs
-* qrc -- same as xml
+* qrc -- xml
+* ui -- xml
+* ts -- xml
 
 ## Status:
 
@@ -28,9 +30,10 @@ native package management support, simply copy and paste:
 |  Qt C++  |  **+** (extend cpp) |                  | **+** (extend cpp) |               |          |        |
 |  qmake   |        **+**        |      **+**       |        **+**       |               |          |        |
 |   qml    |        **+**        |                  |        **+**       |     **+**     |          |        |
-|   qrc    |   **+** (use xml)   |                  |                    |               |          |        |
 |   qbs    |        **+**        |      **+**       |        **+**       |               |          |        |
-|    ui    |                     |                  |                    |               |          |        |
+|   qrc    |     **+** (xml)     |                  |                    |               |          |        |
+|    ui    |     **+** (xml)     |                  |                    |               |          |        |
+|    ts    |     **+** (xml)     |                  |                    |               |          |        |
 
 ## Related works:
 
@@ -49,7 +52,13 @@ native package management support, simply copy and paste:
 
 ## TODO:
 
-* `*.ui` support
-* C++ Autocompletion
 * Add supported syntaxes to Syntax menu
 * QtDoc
+
+## C++ Completion for Qt
+
+1. Generate compile_commands.json (for example: https://github.com/rizsotto/Bear)
+2. Set up LSP server (for example: https://github.com/cquery-project/cquery)
+3. Install & use LSP client for Vim
+   (https://github.com/autozimu/LanguageClient-neovim or
+   https://github.com/prabirshrestha/vim-lsp)

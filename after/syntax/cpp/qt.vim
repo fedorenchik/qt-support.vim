@@ -1366,6 +1366,8 @@ syn keyword qtClass QXmlStreamWriter
 syn keyword qtAccess signals slots
 syn keyword qtMacro Q_ASSERT Q_CHECK_PTR Q_OBJECT
 syn keyword qtMacro Q_PLUGIN_METADATA Q_INTERFACES
+syn keyword qtMacro Q_DECLARE_METATYPE
+syn keyword qtMacro Q_DECLARE_LOGGING_CATEGORY Q_LOGGING_CATEGORY
 syn keyword qtMacro Q_UNUSED
 syn keyword qtMacro SIGNAL SLOT
 
