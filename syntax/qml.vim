@@ -66,7 +66,7 @@ endif
 syn sync fromstart
 syn sync maxlines=100
 
-if main_syntax == "qml"
+if (exists("main_syntax") && main_syntax == 'qml')
   syn sync ccomment qmlComment
 endif
 
